@@ -10,10 +10,11 @@ void changeArr(int arr[],int size){
 }
 int main()
 {
-    int arr[] = {1,2,3};
+    int arr[] = {1,2,3,4};
     changeArr(arr , 3);
     cout << "in main\n";
     for(int i = 0; i<3; i++){
+
         cout << arr[i] << " ";
     }
     return 0;
