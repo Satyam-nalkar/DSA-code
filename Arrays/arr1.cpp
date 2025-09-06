@@ -6,9 +6,11 @@ int main(){
     int marks[size]; 
     // cout << sizeof(marks) / sizeof(int) << endl;
     for(int i=0; i<size; i++){
+
         cin >> marks[i];
     }
-    cout << "print the numbers\n";
+    cout << "print numbers\n";
+    
     for(int i = 0; i<size; i++)
     {
       cout << marks[i] << endl;
