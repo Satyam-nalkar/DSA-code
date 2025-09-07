@@ -16,10 +16,11 @@ int binarySearch(vector<int> arr ,int tar){  // iterative
         else if(tar < arr[mid]){
             end = mid -1;
         }
-        
+
         else {
             return mid;
         }
+
     }
     return -1;
 }
@@ -32,4 +33,5 @@ int main(){
 
     vector<int> arr2 = {-1,0,3,9,12};
     int tar2 =0;
+    
 }
