@@ -13,6 +13,8 @@ int main(){
     vec.push_back(6);
     vec.push_back(7);
     vec.push_back(8);
+    vec.push_back(9);
+    vec.push_back(10);
   cout << vec.size() << endl;
   cout << vec.capacity() << endl; 
     return 0;
