@@ -26,13 +26,14 @@ int main(){
   vec.push_back(95);
   vec.push_back(105);
   vec.push_back(115);
-  vec.push_back(120);
+  vec.push_back(125);
+  vec.push_back(135);
   cout << "after push back size = " << vec.size() << endl;
   vec.pop_back();
     // cout << val << endl;
     cout << vec.front() << endl;
     cout << vec.back() << endl;
   
-     cout << vec.at(1) << endl;
+     cout << vec.at(0) << endl;
     return 0;
 }
