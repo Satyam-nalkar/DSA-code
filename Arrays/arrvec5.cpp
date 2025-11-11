@@ -12,6 +12,8 @@ int main() {
   	v.push_back('p');
   	v.push_back('q');
   	v.push_back('r');
+  	v.push_back('s');
+  	v.push_back('t');
   
   	// Inserting 'c' at index 1
   	v.insert(v.begin() + 1, 'c');
