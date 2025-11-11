@@ -9,6 +9,9 @@ int main() {
   	v.push_back('x');
   	v.push_back('y');
   	v.push_back('z');
+  	v.push_back('p');
+  	v.push_back('q');
+  	v.push_back('r');
   
   	// Inserting 'c' at index 1
   	v.insert(v.begin() + 1, 'c');
