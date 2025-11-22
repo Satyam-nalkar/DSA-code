@@ -32,8 +32,8 @@ int main() {
 	v.push_back('x');
   	v.push_back('y');
   	v.push_back('z');
-
-  
+	
+	
   	// Inserting 'c' at index 1
   	v.insert(v.begin() + 1, 'c');
 
