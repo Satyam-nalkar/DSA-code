@@ -29,3 +29,20 @@ int main(){
 }*/
 
 
+// Inverted Triangle pattern
+#include<iostream>
+using namespace std;
+int n = 4;
+
+int main(){
+    for (int i = 0; i < n; i++){
+        for (int space = 0; space <= i; space++){
+            cout << " ";
+        }
+        for (int j = 1; j < n-i+1 ; j++){
+            cout << i+1 ;
+        }
+        cout << endl;
+    }
+    
+}
