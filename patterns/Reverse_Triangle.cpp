@@ -13,7 +13,7 @@ int main(){
 
 
 //floyd's Triangle Pattern
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 
 int n = 4;
@@ -26,4 +26,6 @@ int main(){
         }
         cout << endl;
     }
-}
+}*/
+
+
