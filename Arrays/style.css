@@ -1,0 +1,27 @@
+/* This creates the 'Box' look */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Essential for single-line box look */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling the lines of the box */
+  table, th, td {
+    border: 2px solid #333; /* Thick dark border for the 'box' effect */
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+
+  /* Header styling */
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  /* Zebra stripes for readability */
+  tr:nth-child(even) {
+    background-color: #fafafa;
+  }
